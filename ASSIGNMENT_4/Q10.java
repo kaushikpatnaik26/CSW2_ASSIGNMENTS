@@ -21,7 +21,7 @@ public class Q10 {
         	double result = calculateExpression(x);
             System.out.println("Result of the expression: " + result);
         } catch (ArithmeticException e) {
-            System.out.println("Error: Division by zero is not allowed.");
+            System.out.println("Error: Division by zero error");
         }
         
         sc.close();
