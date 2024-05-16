@@ -5,15 +5,15 @@ public class BankingApplication {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		SavingsAccount sa=new SavingsAccount(1234,0);
-		sa.withdrawl(34);
-		sa.deposit(15000);
+		SavingsAccount save = new SavingsAccount(1000,0);
+		save .withdrawl(30);
+		save .deposit(1000);
 		
-		System.out.println(sa.getBalance());
+		System.out.println(save.getBalance());
 		
-		SavingsAccount sa2=new SavingsAccount(3456,0);
-		sa2.deposit(15000);
-		sa2.deposit(15000);
+		SavingsAccount save2 = new SavingsAccount(2500,0);
+		save2.deposit(15000);
+		save2.deposit(15000);
 		
 		System.out.println(sa.getBalance());
 		System.out.println(sa2.getBalance());
