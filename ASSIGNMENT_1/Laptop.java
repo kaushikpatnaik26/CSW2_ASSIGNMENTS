@@ -24,6 +24,6 @@ public class Laptop {
 
     @Override
     public String toString(){
-        return ("Laptop model: "+this.model+" costs "+this.price+" Rs.");
+        return ("The Laptop model is: "+this.model+" costs "+this.price+" Rs.");
     }
 }
