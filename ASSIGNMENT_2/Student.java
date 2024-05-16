@@ -45,7 +45,7 @@ class Student implements Comparable<Student> {
 
     public static void main(String[] args) {
     	
-        Student[] students = { new Student("Alice", 102, 85), new Student("Bob", 101, 75), new Student("Charlie", 103, 90) };
+        Student[] students = { new Student("chockli", 102, 85), new Student("messi", 101, 75), new Student("di maria", 103, 90) };
         
         bubbleSort(students);
 
