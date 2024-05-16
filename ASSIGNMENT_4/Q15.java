@@ -10,7 +10,7 @@ public class Q15 {
 		String input = sc.nextLine();
 
 		try {
-			int number = Integer.parseInt(input);
+			int num = Integer.parseInt(input);
 
 			try {
 				int result = 10 / number;
@@ -19,7 +19,7 @@ public class Q15 {
 				System.out.println("A number can't be divided by zero: ");
 			}
 		} catch (NumberFormatException e) {
-			System.out.println("Enter an integer to perform operation. You entered " + e.getMessage());
+			System.out.println(" Enter an integer to perform operation " + e.getMessage());
 		}finally {
 			sc.close();
 		}
