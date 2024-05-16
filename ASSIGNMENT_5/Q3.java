@@ -12,14 +12,13 @@ class NullifiedReference{
 	}
 }
 
-@SuppressWarnings("unused")
 public class Q3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		NullifiedReference obj1=new NullifiedReference("Obj1");
-		obj1=null;
+		NullifiedReference o1 = new NullifiedReference("Obj1");
+		o1 = null;
 		
 		System.gc();	
 	}
