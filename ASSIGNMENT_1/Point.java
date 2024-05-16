@@ -27,7 +27,7 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        Point p1=new Point(2,5);
+        Point p1=new Point(6,9);
         Point p2=new Point(p1);
 
         System.out.println("P1: "+p1.getX()+","+p1.getY());
