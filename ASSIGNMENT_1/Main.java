@@ -1,12 +1,17 @@
-package Q4;
+package Q5;
 
 public class Main {
     public static void main(String[] args) {
-        Laptop laptop1=new Laptop("HP", 23000.5);
-        Laptop laptop2=new Laptop("Dell", 100020.7);
+        
+        College c1=new College("ITER", "Bhubaneswar");
+        College c2=new College("IIT", "Bombay");
 
-        System.out.println(laptop1);
-        System.out.println(laptop2);
+        Student s1=new Student("Debadarshi Omkar", 5006, c1);
+        Student s2=new Student("Virat Kohli", 5018, c2);
+
+        s1.displayStudentInfo();
+        System.out.println();
+        s2.displayStudentInfo();
+        
     }
 }
-
