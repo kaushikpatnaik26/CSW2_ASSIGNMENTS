@@ -18,7 +18,7 @@ class UnreachableObject {
 
     @Override
     protected void finalize() throws Throwable {
-        System.out.println(name + " successfully garbage collected.");
+        System.out.println(name + " successfully collected.");
     }
 }
 
