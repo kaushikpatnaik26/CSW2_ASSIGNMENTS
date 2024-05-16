@@ -18,8 +18,8 @@ public class Book<T> {
 	@Override
 	public boolean equals(Object o) {
 		if(o instanceof Book) {
-			Book b=(Book) o;
-			return this.price.equals(b.price);
+			Book book =(Book) o;
+			return this.price.equals(book.price);
 		}
 		return false;
 	}
