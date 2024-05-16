@@ -14,7 +14,7 @@ public class Q02 {
 				found=true;
 			}
 		}
-		if(!found) System.out.println("No such numeric character is present.");
+		if(!found) System.out.println("Not present.");
 	}
 	
 	public static boolean isVowel(char character) {
