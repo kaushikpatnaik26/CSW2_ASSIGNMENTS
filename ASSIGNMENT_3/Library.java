@@ -16,11 +16,11 @@ public class Library {
 	
 	public static void main(String[] args) {
 		
-		Book b1=new Book("Book1","Author1",123,50);
-		Book b2=new Book("Book2","Author2",456,81);
-		Book b3=new Book("Book3","Author3",789,25);
-		Book b4=new Book("Book4","Author4",479,12);
-		Book b5=new Book("Book5","Author5",179,120);
+		Book b1=new Book("Book1","Author1",999,450);
+		Book b2=new Book("Book2","Author2",4974,811);
+		Book b3=new Book("Book3","Author3",1200,2566);
+		Book b4=new Book("Book4","Author4",98784,6546);
+		Book b5=new Book("Book5","Author5",865768,684687);
 		
 		HashMap<Integer,Book> list=new HashMap<>();
 		list.put(b1.id, b1);
