@@ -32,7 +32,7 @@ public class Rectangle {
     }
     public static void main(String[] args) {
         
-        Rectangle myRectangle=new Rectangle(10,20);
+        Rectangle myRectangle=new Rectangle(40,60);
         
         System.out.println(myRectangle.getArea());
         System.out.println( myRectangle.getPerimeter());
