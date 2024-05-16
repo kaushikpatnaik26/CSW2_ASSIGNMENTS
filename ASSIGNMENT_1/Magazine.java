@@ -18,7 +18,7 @@ public class Magazine extends LibraryResource {
 	
 	@Override
 	public void displayDetails() {
-		System.out.println("\""+this.getTitle()+"\""+" magazine has been issued on "+this.getIssueDate()+".");
+		System.out.println("\""+this.getTitle()+"\""+" This magazine has been issued on "+this.getIssueDate()+".");
 	}
 	
 
