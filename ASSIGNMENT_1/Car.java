@@ -1,25 +1,18 @@
-package Q1;
+package Q8;
 
-public class Car {
-    private String make,model;
+public class Car implements Vehicle{
 
-    public Car(String make, String model){
-        this.make=make;
-        this.model=model;
-    }
-
-    public String getMake(){
-        return make;
-    }
-    public void setMake(String make){
-        this.make=make;
-    }
-    
-
-    public String getModel(){
-        return model;
-    }
-    public void setModel(String model){
-        this.model= model;
-    }
+	@Override
+	public void accelerate() {
+		System.out.println("Car is accelerating.");
+	}
+	
+	public void accelerate(String model) {
+		System.out.println(model+" car is accelerating.");
+	}
+	
+	@Override
+	public void brake() {
+		System.out.println("Car has been slowed.");
+	}
 }
