@@ -38,15 +38,15 @@ public class Q7 {
 		System.out.println("Initial total memory: " + runtime.totalMemory() + " bytes.");
 		System.out.println("Initial free memory: " + runtime.freeMemory() + " bytes.");
 		
-		Student student1 = new Student("John Doe");
-		Student student2 = new Student("Jane Doe");
+		Student s1 = new Student("hakimi");
+		Student s2 = new Student("barcola");
 		
-		Course course1 = new Course("Computer Science");
-		Course course2 = new Course("Mathematics");
+		Course c1 = new Course("IAS");
+		Course c2 = new Course("OAS");
 		
-		student1.enroll(course1);
-		student1.enroll(course2);
-		student2.enroll(course1);
+		student1.enroll(c1);
+		student1.enroll(c2);
+		student2.enroll(c1);
 		
 		student1 = null;
 		student2 = null;
