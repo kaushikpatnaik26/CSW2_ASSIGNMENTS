@@ -4,15 +4,15 @@ public class Car implements Vehicle{
 
 	@Override
 	public void accelerate() {
-		System.out.println("Car is accelerating.");
+		System.out.println("The Car is accelerating.");
 	}
 	
 	public void accelerate(String model) {
-		System.out.println(model+" car is accelerating.");
+		System.out.println(model+"The car is accelerating.");
 	}
 	
 	@Override
 	public void brake() {
-		System.out.println("Car has been slowed.");
+		System.out.println("The Car has been slowed.");
 	}
 }
