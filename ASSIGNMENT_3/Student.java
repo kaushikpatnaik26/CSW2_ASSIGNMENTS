@@ -45,7 +45,7 @@ public class Student {
 	
 	public static void removeStudent(LinkedList<Student> list,Student target) {
 		if(!isPresent(list,target)) {
-			System.out.println("Student is not present in the provided list.");
+			System.out.println("Student is not present");
 		}else {
 			list.remove(target);
 		}
