@@ -10,7 +10,7 @@ public class Q28 {
 		try {
 			incrementMethod(1);
 		}catch(StackOverflowError e) {
-			System.err.println("Stack overflow error occurred: ");
+			System.err.println("Stack overflow error ");
 		}
 	}
 
