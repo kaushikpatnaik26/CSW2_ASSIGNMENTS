@@ -21,15 +21,15 @@ public class Animal {
 	
 	public static void main(String[] args) {
 		
-		Animal a=new Animal("Tiger","yellow","wild");
-		Animal b=new Animal("Cat","white","pet");
-		Animal c=new Animal("Dog","black","pet");
-		Animal d=new Animal("Beer","black","wild");
+		Animal a1=new Animal("panther","rgb(0,0,0)","wild");
+		Animal a2=new Animal("rabbit","white","pet");
+		Animal a3=new Animal("Dog","golden retriever","pet");
+		Animal a4=new Animal("my sister","brown","wild");
 		
 		System.out.println(a.hashCode());
 		System.out.println(b.hashCode());
 		System.out.println(c.hashCode());
 		System.out.println(d.hashCode());
-		System.out.println(new Animal("Lion","white","wild").hashCode());
+		System.out.println(new Animal("rabbit","white","wild").hashCode());
 	}
 }
