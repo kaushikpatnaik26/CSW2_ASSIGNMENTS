@@ -28,11 +28,11 @@ public class ArrayListUser {
 
 		ArrayListUser users=new ArrayListUser();
 		
-		users.add(new User("Deb",(byte)26));
-		users.add(new User("Rohit",(byte)45));
-		users.add(new User("Virat",(byte)18));
-		users.add(new User("Shubhman",(byte)77));
-		users.add(new User("Ravi",(byte)99));
+		users.add(new User("naveen babu",(byte)26));
+		users.add(new User("narendra modululi",(byte)45));
+		users.add(new User("amit sheesh",(byte)18));
+		users.add(new User("aparjita ias",(byte)77));
+		users.add(new User("the local band",(byte)99));
 		
 		System.out.println("Before Sorting:");
 		users.printUsers();
