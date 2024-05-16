@@ -4,7 +4,7 @@ public class Q20 {
 
 	public static void traverseArray(int[] array, int index) {
 		if (index >= array.length) {
-			System.out.println("Traversal completed.");
+			System.out.println("Traversal complete.");
 			return;
 		}
 		try {
@@ -18,7 +18,7 @@ public class Q20 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int[] array = {1, 2, 3, 4, 5};
+		int[] array = {0, 6, 7, 9, 4};
 		traverseArray(array,0);
 	}
 
