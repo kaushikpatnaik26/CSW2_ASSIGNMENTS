@@ -47,8 +47,8 @@ public class Q5 {
 		NumberData obj1 = new NumberData();
 		NumberData obj2 = new NumberData();
 		
-		obj1.initialize(ThreadLocalRandom.current().nextInt(100), ThreadLocalRandom.current().nextDouble());
-		obj2.initialize(ThreadLocalRandom.current().nextInt(100), ThreadLocalRandom.current().nextDouble());
+		obj1.initialize(ThreadLocalRandom.current().nextInt(20), ThreadLocalRandom.current().nextDouble());
+		obj2.initialize(ThreadLocalRandom.current().nextInt(99), ThreadLocalRandom.current().nextDouble());
 		
 		obj1 = null;
 		obj2 = null;
