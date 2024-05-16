@@ -28,21 +28,18 @@ public class Address {
 		Address add5=new Address("I","J",77);
 		
 		TreeMap<String,Address> list=new TreeMap<>();
-		list.put("Deb", add5);
-		list.put("Virat", add1);
-		list.put("Rohit", add2);
-		list.put("Gill", add3);
-		list.put("Jaiswal", add4);
+		list.put("messi", add5);
+		list.put("rolando bhai", add1);
+		list.put("dybala", add2);
+		list.put("van dijk", add3);
+		list.put("mac allister", add4);
 		
 		
-		Iterator it=list.entrySet().iterator();
-		while(it.hasNext()) {
-			Map.Entry<String,Address> ment= (Map.Entry)it.next();
+		Iterator iterate = list.entrySet().iterator();
+		while(iterate .hasNext()) {
+			Map.Entry<String,Address> ment= (Map.Entry)iterate.next();
 			System.out.println(ment.getKey()+"--> "+ment.getValue().at+" "+ment.getValue().plotNo+" "+ment.getValue().post);
 		}
 		
-//		for(String key:list.keySet()) {
-//			System.out.println(key+" "+list.get(key));
-//		}
 	}
 }
