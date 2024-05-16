@@ -8,7 +8,7 @@ class ReassigningReference{
 	
 	@Override
 	public void finalize() throws Throwable {
-		System.out.println(name+" successfully garbage collected.");
+		System.out.println(name + " successfully garbage collected.");
 	}
 }
 public class Q2 {
@@ -16,10 +16,10 @@ public class Q2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		ReassigningReference obj1=new ReassigningReference("Obj-1");
-		ReassigningReference obj2=new ReassigningReference("Obj-2");
+		ReassigningReference o1 = new ReassigningReference("Obj-1");
+		ReassigningReference o2 = new ReassigningReference("Obj-2");
 		
-		obj2=obj1;
+		o2=o1;
 
 		System.gc();
 	}
