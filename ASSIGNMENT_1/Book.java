@@ -18,7 +18,7 @@ public class Book extends LibraryResource {
 
     @Override
     public void displayDetails(){
-        System.out.println("\""+this.getTitle()+"\""+" book contains "+this.getPageCount()+" pages.");
+        System.out.println("\""+this.getTitle()+"\""+"The book contains "+this.getPageCount()+" pages.");
     }
 }
 
