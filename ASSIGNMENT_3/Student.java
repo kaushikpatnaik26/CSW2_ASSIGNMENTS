@@ -67,25 +67,13 @@ public class Student {
 	public static void main(String[] args) {
 		
 		LinkedList<Student> list=new LinkedList<>();
-		list.add(new Student("Deb",19,27));
-		list.add(new Student("Virat",35,26));
-		list.add(new Student("Rohit",37,30));
-		list.add(new Student("Yashasvi",21,28));
-		list.add(new Student("Shubhman",23,29));
-		
+		list.add(new Student("selmon",19,27));
+		list.add(new Student("chooo lo",35,26));
+		list.add(new Student("aoge tum kabbhi",37,30));
+		list.add(new Student("dekh lena",21,28));
+		list.add(new Student("FE!N",23,29));
 		displayList(list);
-		
-		
-		Student target=new Student("Deb",19,27);
-		
-//		if(isPresent(list,target)) {
-//			System.out.println("Student is present in the list.");
-//		}else {
-//			System.out.println("Student is not present in the list.");
-//		}
-		
-		
-//		removeStudent(list,target);
+		Student target=new Student("selmon",19,27)	
 		
 		displayList(list);
 		System.out.println(numberOfStudents(list));
