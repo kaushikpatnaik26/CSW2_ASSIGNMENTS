@@ -18,7 +18,7 @@ public class DVD extends LibraryResource {
 	
 	@Override
 	public void displayDetails() {
-		System.out.println("\""+this.getTitle()+"\""+" DVD has been issued for "+this.getDuration()+".");
+		System.out.println("\""+this.getTitle()+"\""+"THE DVD has been uploaded for "+this.getDuration()+".");
 	}
 	
 
