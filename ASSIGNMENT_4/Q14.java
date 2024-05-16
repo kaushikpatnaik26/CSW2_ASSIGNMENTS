@@ -9,22 +9,22 @@ public class Q14 {
 			throw new IllegalArgumentException("x cannot be a multiple of pi.");
 		}
 
-		double sinValue = Math.sin(x);
-		double cosValue = Math.cos(x);
-		double tanValue = Math.tan(x);
-		double cotValue = 1.0 / tanValue; 
+		double sin = Math.sin(x);
+		double cos = Math.cos(x);
+		double tan = Math.tan(x);
+		double cot = 1.0 / tanValue; 
 
 		if (Math.abs(tanValue - cotValue) < 1e-10) {
-			throw new ArithmeticException("Division by zero is not allowed.");
+			throw new ArithmeticException("Division by zero error");
 		}
 
-		double expressionValue = Math.log(Math.abs(sinValue + cosValue)) / (tanValue - cotValue);
+		double expression = Math.log(Math.abs(sin + cos)) / (tan - cot);
 
-		if (sinValue + cosValue < 0) {
+		if (sin + cos < 0) {
 			throw new IllegalArgumentException("Log of a negative value is undefined.");
 		}
 
-		return expressionValue;
+		return expression;
 	}
 
 	public static void main(String[] args) {
