@@ -5,13 +5,13 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Book book1=new Book(25,"Human Nature",500);
-		Book book2=new Book("30a","Artificial Intelligence",500);
+		Book b1=new Book(250,"Human consciousness",500);
+		Book b2=new Book("60a","Artificial Intelligence",1800);
 		
-		System.out.println(book1);
-		System.out.println(book2);
+		System.out.println(b1);
+		System.out.println(b2);
 		
-		System.out.println(book1.equals(book2));
+		System.out.println(b1.equals(b2));
 	}
 
 }
