@@ -5,15 +5,15 @@ public class Car implements Comparable<Car>{
 	double speed;
 	
 	Car(String model,String color,double speed){
-		this.model=model;
-		this.color=color;
-		this.speed=speed;
+		this.model = model;
+		this.color = color;
+		this.speed = speed;
 	}
 	
 	@Override
-	public int compareTo(Car o) {
-		if(this.speed==o.speed) return 0;
-		else if(this.speed<o.speed) return -1;
+	public int compareTo(Car car) {
+		if(this.speed == car.speed) return 0;
+		else if(this.speed < car.speed) return -1;
 		else return 1;
 	}
 	
